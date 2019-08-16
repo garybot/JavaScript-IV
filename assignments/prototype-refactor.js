@@ -190,6 +190,7 @@ function battle(hero, villain) {
       console.log(villain.fireball(hero));
     }
   }
+  hero.fairies = 3;
   console.log(hero.heal());
   console.log(villain.heal());
 }
